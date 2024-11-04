@@ -8,6 +8,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of Fleetwood Mac's *Rumours* featuring a serene blue background.",
+    imageLink: "",
   },
   {
     title: "Kind of Blue",
@@ -18,6 +19,7 @@ const albums = [
     decade: "1950s",
     altText:
       "Cover of Miles Davis's *Kind of Blue* showcasing abstract art in shades of blue.",
+    imageLink: "",
   },
   {
     title: "Nevermind",
@@ -28,6 +30,7 @@ const albums = [
     decade: "1990s",
     altText:
       "Cover of Nirvana's *Nevermind* featuring a baby swimming towards a dollar bill.",
+    imageLink: "",
   },
   {
     title: "21",
@@ -38,6 +41,7 @@ const albums = [
     decade: "2010s",
     altText:
       "Cover of Adele's *21* with a close-up portrait of Adele against a muted background.",
+    imageLink: "",
   },
   {
     title: "The Dark Side of the Moon",
@@ -48,6 +52,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of Pink Floyd's *The Dark Side of the Moon* featuring a prism refracting light.",
+    imageLink: "",
   },
   {
     title: "Aerial",
@@ -58,6 +63,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of Kate Bush's *Aerial* with a surreal landscape in soft colors.",
+    imageLink: "",
   },
   {
     title: "Thriller",
@@ -68,6 +74,7 @@ const albums = [
     decade: "1980s",
     altText:
       "Cover of Michael Jackson's *Thriller* showing him in a classic dance pose.",
+    imageLink: "",
   },
   {
     title: "Blue",
@@ -78,6 +85,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of Joni Mitchell's *Blue* featuring a close-up of Joni against a blue background.",
+    imageLink: "",
   },
   {
     title: "Abbey Road",
@@ -88,6 +96,7 @@ const albums = [
     decade: "1960s",
     altText:
       "Cover of The Beatles' *Abbey Road* showing the band crossing the street.",
+    imageLink: "",
   },
   {
     title: "The Chronic",
@@ -98,6 +107,7 @@ const albums = [
     decade: "1990s",
     altText:
       "Cover of Dr. Dre's *The Chronic* with a classic hip-hop aesthetic.",
+    imageLink: "",
   },
   {
     title: "OK Computer",
@@ -108,6 +118,7 @@ const albums = [
     decade: "1990s",
     altText:
       "Cover of Radiohead's *OK Computer* featuring abstract art with a dark theme.",
+    imageLink: "",
   },
   {
     title: "Beyoncé",
@@ -118,6 +129,7 @@ const albums = [
     decade: "2010s",
     altText:
       "Cover of Beyoncé's self-titled album showcasing a powerful image of the artist.",
+    imageLink: "",
   },
   {
     title: "Back in Black",
@@ -128,6 +140,7 @@ const albums = [
     decade: "1980s",
     altText:
       "Cover of AC/DC's *Back in Black* featuring a sleek black background with the band's logo.",
+    imageLink: "",
   },
   {
     title: "Blonde",
@@ -138,6 +151,7 @@ const albums = [
     decade: "2010s",
     altText:
       "Cover of Frank Ocean's *Blonde* featuring a minimalist design with a soft color palette.",
+    imageLink: "",
   },
   {
     title: "In the Aeroplane Over the Sea",
@@ -148,6 +162,7 @@ const albums = [
     decade: "1990s",
     altText:
       "Cover of Neutral Milk Hotel's *In the Aeroplane Over the Sea* with whimsical artwork.",
+    imageLink: "",
   },
   {
     title: "Hotel California",
@@ -158,6 +173,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of The Eagles' *Hotel California* depicting a classic hotel under twilight.",
+    imageLink: "",
   },
   {
     title: "Come Away With Me",
@@ -168,6 +184,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of Norah Jones's *Come Away With Me* featuring a soft, warm photograph of the artist.",
+    imageLink: "",
   },
   {
     title: "Born to Run",
@@ -178,6 +195,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of Bruce Springsteen's *Born to Run* with a dynamic photo of the artist in action.",
+    imageLink: "",
   },
   {
     title: "The Marshall Mathers LP",
@@ -188,6 +206,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of Eminem's *The Marshall Mathers LP* with a striking image of the artist.",
+    imageLink: "",
   },
   {
     title: "Stankonia",
@@ -198,6 +217,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of OutKast's *Stankonia* featuring vibrant and eclectic artwork.",
+    imageLink: "",
   },
   {
     title: "The College Dropout",
@@ -208,6 +228,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of Kanye West's *The College Dropout* showcasing a cartoon-style illustration.",
+    imageLink: "",
   },
   {
     title: "Born This Way",
@@ -218,6 +239,7 @@ const albums = [
     decade: "2010s",
     altText:
       "Cover of Lady Gaga's *Born This Way* with a bold graphic design of the artist's face.",
+    imageLink: "",
   },
   {
     title: "Appetite for Destruction",
@@ -228,6 +250,7 @@ const albums = [
     decade: "1980s",
     altText:
       "Cover of Guns N' Roses's *Appetite for Destruction* featuring a striking artwork of skulls.",
+    imageLink: "",
   },
   // New Albums
   {
@@ -239,6 +262,7 @@ const albums = [
     decade: "1950s",
     altText:
       "Cover of John Coltrane's *Blue Train* featuring an iconic photo of the artist.",
+    imageLink: "",
   },
   {
     title: "The Freewheelin' Bob Dylan",
@@ -249,6 +273,7 @@ const albums = [
     decade: "1960s",
     altText:
       "Cover of Bob Dylan's *The Freewheelin' Bob Dylan* with a classic street scene.",
+    imageLink: "",
   },
   {
     title: "A Change Is Gonna Come",
@@ -259,6 +284,7 @@ const albums = [
     decade: "1960s",
     altText:
       "Cover of Sam Cooke's *A Change Is Gonna Come* showcasing a powerful image of the artist.",
+    imageLink: "",
   },
   {
     title: "Pet Sounds",
@@ -269,6 +295,7 @@ const albums = [
     decade: "1960s",
     altText:
       "Cover of The Beach Boys' *Pet Sounds* featuring colorful illustrations of the band.",
+    imageLink: "",
   },
   {
     title: "Evermore",
@@ -279,5 +306,8 @@ const albums = [
     decade: "2020s",
     altText:
       "Cover of Taylor Swift's *Evermore* featuring a soft, dreamy landscape.",
+    imageLink: "",
   },
 ];
+
+export default albums;
