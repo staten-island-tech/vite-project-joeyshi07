@@ -8,7 +8,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of Fleetwood Mac's *Rumours* featuring a serene blue background.",
-    imageLink: "",
+    imageLink: "https://example.com/rumours.jpg",
   },
   {
     title: "Kind of Blue",
@@ -19,7 +19,7 @@ const albums = [
     decade: "1950s",
     altText:
       "Cover of Miles Davis's *Kind of Blue* showcasing abstract art in shades of blue.",
-    imageLink: "",
+    imageLink: "https://example.com/kindofblue.jpg",
   },
   {
     title: "Nevermind",
@@ -30,7 +30,7 @@ const albums = [
     decade: "1990s",
     altText:
       "Cover of Nirvana's *Nevermind* featuring a baby swimming towards a dollar bill.",
-    imageLink: "",
+    imageLink: "https://example.com/nevermind.jpg",
   },
   {
     title: "21",
@@ -41,7 +41,7 @@ const albums = [
     decade: "2010s",
     altText:
       "Cover of Adele's *21* with a close-up portrait of Adele against a muted background.",
-    imageLink: "",
+    imageLink: "https://example.com/21.jpg",
   },
   {
     title: "The Dark Side of the Moon",
@@ -52,7 +52,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of Pink Floyd's *The Dark Side of the Moon* featuring a prism refracting light.",
-    imageLink: "",
+    imageLink: "https://example.com/darksideofthemoon.jpg",
   },
   {
     title: "Aerial",
@@ -63,7 +63,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of Kate Bush's *Aerial* with a surreal landscape in soft colors.",
-    imageLink: "",
+    imageLink: "https://example.com/aerial.jpg",
   },
   {
     title: "Thriller",
@@ -74,7 +74,7 @@ const albums = [
     decade: "1980s",
     altText:
       "Cover of Michael Jackson's *Thriller* showing him in a classic dance pose.",
-    imageLink: "",
+    imageLink: "https://example.com/thriller.jpg",
   },
   {
     title: "Blue",
@@ -85,7 +85,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of Joni Mitchell's *Blue* featuring a close-up of Joni against a blue background.",
-    imageLink: "",
+    imageLink: "https://example.com/blue.jpg",
   },
   {
     title: "Abbey Road",
@@ -96,7 +96,7 @@ const albums = [
     decade: "1960s",
     altText:
       "Cover of The Beatles' *Abbey Road* showing the band crossing the street.",
-    imageLink: "",
+    imageLink: "https://example.com/abbeyroad.jpg",
   },
   {
     title: "The Chronic",
@@ -107,7 +107,7 @@ const albums = [
     decade: "1990s",
     altText:
       "Cover of Dr. Dre's *The Chronic* with a classic hip-hop aesthetic.",
-    imageLink: "",
+    imageLink: "https://example.com/thechronic.jpg",
   },
   {
     title: "OK Computer",
@@ -118,7 +118,7 @@ const albums = [
     decade: "1990s",
     altText:
       "Cover of Radiohead's *OK Computer* featuring abstract art with a dark theme.",
-    imageLink: "",
+    imageLink: "https://example.com/okcomputer.jpg",
   },
   {
     title: "Beyoncé",
@@ -129,7 +129,7 @@ const albums = [
     decade: "2010s",
     altText:
       "Cover of Beyoncé's self-titled album showcasing a powerful image of the artist.",
-    imageLink: "",
+    imageLink: "https://example.com/beyonce.jpg",
   },
   {
     title: "Back in Black",
@@ -140,7 +140,7 @@ const albums = [
     decade: "1980s",
     altText:
       "Cover of AC/DC's *Back in Black* featuring a sleek black background with the band's logo.",
-    imageLink: "",
+    imageLink: "https://example.com/backinblack.jpg",
   },
   {
     title: "Blonde",
@@ -151,7 +151,7 @@ const albums = [
     decade: "2010s",
     altText:
       "Cover of Frank Ocean's *Blonde* featuring a minimalist design with a soft color palette.",
-    imageLink: "",
+    imageLink: "https://example.com/blonde.jpg",
   },
   {
     title: "In the Aeroplane Over the Sea",
@@ -162,7 +162,7 @@ const albums = [
     decade: "1990s",
     altText:
       "Cover of Neutral Milk Hotel's *In the Aeroplane Over the Sea* with whimsical artwork.",
-    imageLink: "",
+    imageLink: "https://example.com/aeroplane.jpg",
   },
   {
     title: "Hotel California",
@@ -173,7 +173,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of The Eagles' *Hotel California* depicting a classic hotel under twilight.",
-    imageLink: "",
+    imageLink: "https://example.com/hotelcalifornia.jpg",
   },
   {
     title: "Come Away With Me",
@@ -184,7 +184,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of Norah Jones's *Come Away With Me* featuring a soft, warm photograph of the artist.",
-    imageLink: "",
+    imageLink: "https://example.com/comeawaywithme.jpg",
   },
   {
     title: "Born to Run",
@@ -195,7 +195,7 @@ const albums = [
     decade: "1970s",
     altText:
       "Cover of Bruce Springsteen's *Born to Run* with a dynamic photo of the artist in action.",
-    imageLink: "",
+    imageLink: "https://example.com/borntorun.jpg",
   },
   {
     title: "The Marshall Mathers LP",
@@ -206,7 +206,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of Eminem's *The Marshall Mathers LP* with a striking image of the artist.",
-    imageLink: "",
+    imageLink: "https://example.com/marshallmatherslp.jpg",
   },
   {
     title: "Stankonia",
@@ -217,7 +217,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of OutKast's *Stankonia* featuring vibrant and eclectic artwork.",
-    imageLink: "",
+    imageLink: "https://example.com/stankonia.jpg",
   },
   {
     title: "The College Dropout",
@@ -228,7 +228,7 @@ const albums = [
     decade: "2000s",
     altText:
       "Cover of Kanye West's *The College Dropout* showcasing a cartoon-style illustration.",
-    imageLink: "",
+    imageLink: "https://example.com/collegedropout.jpg",
   },
   {
     title: "Born This Way",
@@ -239,7 +239,7 @@ const albums = [
     decade: "2010s",
     altText:
       "Cover of Lady Gaga's *Born This Way* with a bold graphic design of the artist's face.",
-    imageLink: "",
+    imageLink: "https://example.com/bornthisway.jpg",
   },
   {
     title: "Appetite for Destruction",
@@ -250,9 +250,8 @@ const albums = [
     decade: "1980s",
     altText:
       "Cover of Guns N' Roses's *Appetite for Destruction* featuring a striking artwork of skulls.",
-    imageLink: "",
+    imageLink: "https://example.com/appetitefordestruction",
   },
-  // New Albums
   {
     title: "Blue Train",
     artist: "John Coltrane",
@@ -262,7 +261,6 @@ const albums = [
     decade: "1950s",
     altText:
       "Cover of John Coltrane's *Blue Train* featuring an iconic photo of the artist.",
-    imageLink: "",
   },
   {
     title: "The Freewheelin' Bob Dylan",
@@ -273,7 +271,6 @@ const albums = [
     decade: "1960s",
     altText:
       "Cover of Bob Dylan's *The Freewheelin' Bob Dylan* with a classic street scene.",
-    imageLink: "",
   },
   {
     title: "A Change Is Gonna Come",
@@ -284,7 +281,6 @@ const albums = [
     decade: "1960s",
     altText:
       "Cover of Sam Cooke's *A Change Is Gonna Come* showcasing a powerful image of the artist.",
-    imageLink: "",
   },
   {
     title: "Pet Sounds",
@@ -295,7 +291,6 @@ const albums = [
     decade: "1960s",
     altText:
       "Cover of The Beach Boys' *Pet Sounds* featuring colorful illustrations of the band.",
-    imageLink: "",
   },
   {
     title: "Evermore",
@@ -304,10 +299,9 @@ const albums = [
     genre: "Indie",
     mood: "Nostalgic",
     decade: "2020s",
+    imageLink:
+      "https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png",
     altText:
       "Cover of Taylor Swift's *Evermore* featuring a soft, dreamy landscape.",
-    imageLink: "",
   },
 ];
-
-export default albums;
