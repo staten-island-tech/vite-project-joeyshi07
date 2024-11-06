@@ -8,7 +8,7 @@ const DOMSelectors = {
 
 const placeholder = DOMSelectors.container;
 
-albums.forEach((album) => {
+function albumAdd(album) {
   placeholder.insertAdjacentHTML(
     "beforeend",
     `<div class="card">
@@ -17,4 +17,20 @@ albums.forEach((album) => {
       <h3 class="card-artist">${album.artist}</h3>
     </div>`
   );
-});
+}
+albums.forEach((album) => albumAdd(album));
+
+// function filterAlbumsByArtist(type) {
+//   filter((album) => album.artistType == type).forEach((album) =>
+//     albumAdd(album)
+//   );
+// }
+// function filterAlbumsByDecade(type) {
+//   filter((album) => album.decade == type).forEach((album) => albumAdd(album));
+// }
+// function filterAlbumsByGenre(type) {
+//   filter((album) => album.decade == type).forEach((album) => albumAdd(album));
+// }
+// function filterAlbumsByMood(type) {
+//   filter((album) => album.decade == type).forEach((album) => albumAdd(album));
+// }
