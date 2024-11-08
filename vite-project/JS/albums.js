@@ -176,7 +176,7 @@ export const albums = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/ACDC_Back_in_Black_cover.svg/1200px-ACDC_Back_in_Black_cover.svg.png",
   },
   {
-    title: "Blonde",
+    title: "Blond",
     artist: "Frank Ocean",
     artistType: "Solo Artist",
     genre: "R&B",

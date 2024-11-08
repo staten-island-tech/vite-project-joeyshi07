@@ -12,6 +12,69 @@ h1 {
   font-size: 3rem;
 }
 
+/* Basic Reset *
+/* Container for dropdowns */
+.dropdowns {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* Button style */
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 15rem;
+}
+
+/* Style for the dropdowns (hidden by default) */
+.filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+/* Style for links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show dropdown menu on button hover */
+.filter-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Optional: Hover effect for the dropdown button */
+.filter-dropdown:hover .btn {
+  background-color: #45a049;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -25,12 +88,16 @@ h1 {
   margin: 20px;
   width: 200px;
   text-align: center;
-  background-color: #fff;
+  background-color: rgb(166, 189, 218);
+  box-shadow: 0px 0px 4px 1px;
 }
 
 .card img {
   width: 100%;
   height: auto;
+  border: 1px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .card-header {
