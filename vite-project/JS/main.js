@@ -5,6 +5,7 @@ const DOMSelectors = {
   header: document.querySelector("h1"),
   container: document.querySelector(".container"),
   filterDropdown: document.querySelectorAll(".filter-dropdown"),
+  resetButton: document.querySelector("#reset-button"),
 };
 
 const placeholder = DOMSelectors.container;
@@ -26,6 +27,10 @@ function showAlbums(albumsDisplayed) {
 }
 
 showAlbums(albums);
+
+function resetAlbums() {
+  showAlbums(albums);
+}
 
 const filterMap = {
   "artist-type": "artistType",
@@ -52,4 +57,8 @@ DOMSelectors.filterDropdown.forEach((dropdown) => {
       filterAlbums(filterKey, filterValue);
     });
   });
+});
+
+DOMSelectors.resetButton.addEventListener("click", () => {
+  resetAlbums();
 });
