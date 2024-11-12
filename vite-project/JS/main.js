@@ -4,6 +4,7 @@ import { albums } from "./albums.js";
 const DOMSelectors = {
   header: document.querySelector("h1"),
   container: document.querySelector(".container"),
+  filterDropdown: document.querySelectorAll(".filter-dropdown"),
 };
 
 const placeholder = DOMSelectors.container;
@@ -18,19 +19,37 @@ function albumAdd(album) {
     </div>`
   );
 }
-albums.forEach((album) => albumAdd(album));
 
-// function filterAlbumsByArtist(type) {
-//   filter((album) => album.artistType == type).forEach((album) =>
-//     albumAdd(album)
-//   );
-// }
-// function filterAlbumsByDecade(type) {
-//   filter((album) => album.decade == type).forEach((album) => albumAdd(album));
-// }
-// function filterAlbumsByGenre(type) {
-//   filter((album) => album.decade == type).forEach((album) => albumAdd(album));
-// }
-// function filterAlbumsByMood(type) {
-//   filter((album) => album.decade == type).forEach((album) => albumAdd(album));
-// }
+function showAlbums(albumsDisplayed) {
+  placeholder.replaceChildren();
+  albumsDisplayed.forEach((album) => albumAdd(album));
+}
+
+showAlbums(albums);
+
+const filterMap = {
+  "artist-type": "artistType",
+  mood: "mood",
+  genre: "genre",
+  decade: "decade",
+};
+
+function filterAlbums(filterType, filterValue) {
+  const filteredAlbums = albums.filter((album) => {
+    return filterValue === "all" || album[filterType].includes(filterValue);
+  });
+  showAlbums(filteredAlbums);
+}
+
+DOMSelectors.filterDropdown.forEach((dropdown) => {
+  const button = dropdown.querySelector("button");
+  dropdown.querySelectorAll("a").forEach((item) => {
+    item.addEventListener("click", (event) => {
+      const filterCategory = button.id;
+      const filterKey = filterMap[filterCategory];
+      const filterValue = event.target.textContent;
+
+      filterAlbums(filterKey, filterValue);
+    });
+  });
+});
