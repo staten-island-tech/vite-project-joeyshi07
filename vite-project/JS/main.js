@@ -22,7 +22,7 @@ function albumAdd(album) {
 }
 
 function showAlbums(albumsDisplayed) {
-  placeholder.replaceChildren();
+  placeholder.replaceChildren(); // getting rid of the albums each time
   albumsDisplayed.forEach((album) => albumAdd(album));
 }
 

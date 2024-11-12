@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --cream: #fffcf3;
+  --grey: rgb(171, 180, 202);
+
+  --h1: 6.6rem;
+  --h2:
+
+
+}
+
 html,
 body,
 * {
@@ -6,10 +18,18 @@ body,
   box-sizing: border-box;
   font-size: 10px;
   text-align: center;
+
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 6rem;
+  font-family: "Karla";
+
+}
+
+h2 {
+  font-size: 2rem;
+
 }
 
 .dropdowns {
@@ -100,9 +120,21 @@ h1 {
   font-size: 1.2rem;
 }
 
-:root {
-  --bg-color: white; 
-  --text-color: black;
-  --btn-bg: #4caf50; 
-  --btn-hover-bg: #45a049; 
+.round-btn {
+  background-color: grey;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 5px
+}
+
+.round-btn img {
+  width: 40px;
+  height: 40px;
 }
