@@ -6,6 +6,7 @@ const DOMSelectors = {
   container: document.querySelector(".container"),
   filterDropdown: document.querySelectorAll(".filter-dropdown"),
   resetButton: document.querySelector("#reset-button"),
+  modeButton: document.querySelector("mode-button"),
 };
 
 const placeholder = DOMSelectors.container;
@@ -61,4 +62,14 @@ DOMSelectors.filterDropdown.forEach((dropdown) => {
 
 DOMSelectors.resetButton.addEventListener("click", () => {
   resetAlbums();
+});
+
+DOMSelectors.modeButton.addEventListener("click", function () {
+  if (document.body.classList.contains("light")) {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+  } else {
+    document.body.classList.add("light");
+    document.body.classList.remove("dark");
+  }
 });
