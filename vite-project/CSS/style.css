@@ -2,12 +2,16 @@
 
 :root {
   --cream: rgb(255, 253, 245);
-  --grey: rgb(223, 228, 255);
+  --ice-grey: rgb(223, 228, 255);
+  --grey: rgb(119, 118, 148);
   --yellow: rgb(255, 235, 103);
+  --dark-grey: rgb(18, 21, 40);
 
   --primary: var(--cream);
-  --secondary: var(--grey);
-  --highight: var(--yellow)
+  --secondary: var(--ice-grey);
+  --tertiary: var(--grey)
+  --highight: var(--yellow);
+  --base: var(--dark-grey);
 
   --h1: 6.5rem;
   --h2: 6.1rem;
@@ -24,7 +28,6 @@
 
 :light {
   background-color: var(--primary);
-  
 }
 
 html,
@@ -57,7 +60,7 @@ h2 {
 }
 
 .btn {
-  background-color: black;
+  background-color: var(--base);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -139,8 +142,7 @@ h2 {
 }
 
 .round-btn {
-  background-color: grey;
-  color: white;
+  background-color: var(--tertiary);
   padding: 10px 10px;
   border: none;
   cursor: pointer;
