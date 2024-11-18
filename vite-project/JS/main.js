@@ -17,7 +17,7 @@ function albumAdd(album) {
     `<div class="card">
       <h2 class="card-header">${album.title}</h2>
       <img src="${album.imageLink}" alt="${album.altText}" />
-      <p class="card-artist">By: ${album.artist}</p>
+      <h3 class="card-artist">By: ${album.artist}</h3>
     </div>`
   );
 }
