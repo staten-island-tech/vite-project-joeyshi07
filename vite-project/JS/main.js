@@ -1,4 +1,4 @@
-import "../css/style.css";
+import "../CSS/style.css";
 import { albums } from "./albums.js";
 
 const DOMSelectors = {
