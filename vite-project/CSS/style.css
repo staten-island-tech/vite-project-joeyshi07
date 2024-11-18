@@ -3,11 +3,11 @@
 :root {
   --white: white;
   --cream: rgb(255, 253, 245);
-  --ice-grey: rgb(223, 228, 255);
+  --ice-grey: rgb(205, 211, 245);
   --grey: rgb(111, 110, 140);
   --yellow: rgb(249, 230, 145);
   --dark-yellow: rgb(151, 119, 21);
-  --dark-grey: rgb(32, 38, 73);
+  --dark-grey: rgb(53, 55, 73);
   --black: black;
 
   --primary: var(--cream);
