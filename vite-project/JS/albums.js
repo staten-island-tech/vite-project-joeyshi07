@@ -2,7 +2,7 @@ export const albums = [
   {
     title: "Rumours",
     artist: "Fleetwood Mac",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Rock",
     mood: "Nostalgic",
     decade: "1970s",
@@ -26,7 +26,7 @@ export const albums = [
   {
     title: "Nevermind",
     artist: "Nirvana",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Rock",
     mood: "Angry",
     decade: "1990s",
@@ -49,7 +49,7 @@ export const albums = [
   {
     title: "Heaven or Las Vegas",
     artist: "Cocteau Twins",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Indie",
     mood: "Wistful",
     decade: "1990s",
@@ -61,7 +61,7 @@ export const albums = [
   {
     title: "The Dark Side of the Moon",
     artist: "Pink Floyd",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Rock",
     mood: "Nostalgic",
     decade: "1970s",
@@ -120,7 +120,7 @@ export const albums = [
   {
     title: "Abbey Road",
     artist: "The Beatles",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Rock",
     mood: "Nostalgic",
     decade: "1960s",
@@ -143,7 +143,7 @@ export const albums = [
   {
     title: "Kid A",
     artist: "Radiohead",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Rock",
     mood: "Melancholy",
     decade: "2000s",
@@ -166,7 +166,7 @@ export const albums = [
   {
     title: "Back in Black",
     artist: "AC/DC",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Rock",
     mood: "Upbeat",
     decade: "1980s",
@@ -215,7 +215,7 @@ export const albums = [
   {
     title: "Being Funny in a Foreign Language",
     artist: "The 1975",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Indie",
     mood: "Romantic",
     decade: "2020s",
@@ -226,7 +226,7 @@ export const albums = [
   {
     title: "Hotel California",
     artist: "The Eagles",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Rock",
     mood: "Melancholy",
     decade: "1970s",
@@ -262,7 +262,7 @@ export const albums = [
   {
     title: "Stankonia",
     artist: "OutKast",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Hip Hop",
     mood: "Upbeat",
     decade: "2000s",
@@ -298,7 +298,7 @@ export const albums = [
   {
     title: "Appetite for Destruction",
     artist: "Guns N' Roses",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Rock",
     mood: "Angry",
     decade: "1980s",
@@ -346,7 +346,7 @@ export const albums = [
   {
     title: "Pet Sounds",
     artist: "The Beach Boys",
-    artistType: "Band",
+    artistType: "Group",
     genre: "Indie",
     mood: "Nostalgic",
     decade: "1960s",
